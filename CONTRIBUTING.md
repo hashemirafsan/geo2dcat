@@ -10,7 +10,7 @@ By participating in this project, you agree to be respectful and professional in
 
 ### Reporting Issues
 
-1. Check if the issue already exists in [GitHub Issues](https://github.com/yourusername/geo2dcat/issues)
+1. Check if the issue already exists in [GitHub Issues](https://github.com/hashemirafsan/geo2dcat/issues)
 2. If not, create a new issue with:
    - Clear, descriptive title
    - Steps to reproduce (if applicable)
@@ -20,7 +20,7 @@ By participating in this project, you agree to be respectful and professional in
 
 ### Suggesting Features
 
-1. Open a [Discussion](https://github.com/yourusername/geo2dcat/discussions) first
+1. Open a [Discussion](https://github.com/hashemirafsan/geo2dcat/discussions) first
 2. Describe the use case and benefits
 3. Consider implementation complexity
 4. Get feedback before starting work
@@ -31,7 +31,7 @@ By participating in this project, you agree to be respectful and professional in
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/geo2dcat.git
+git clone https://github.com/hashemirafsan/geo2dcat.git
 cd geo2dcat
 
 # Create virtual environment
@@ -226,9 +226,9 @@ PR title format:
 ## Getting Help
 
 - Check existing [documentation](README.md)
-- Search [closed issues](https://github.com/yourusername/geo2dcat/issues?q=is%3Aclosed)
-- Ask in [Discussions](https://github.com/yourusername/geo2dcat/discussions)
-- Join our community chat (if available)
+- Search [closed issues](https://github.com/hashemirafsan/geo2dcat/issues?q=is%3Aclosed)
+- Ask in [Discussions](https://github.com/hashemirafsan/geo2dcat/discussions)
+- Check the [Wiki](https://github.com/hashemirafsan/geo2dcat/wiki)
 
 ## Release Process
 
@@ -242,7 +242,7 @@ Maintainers will:
 ## Recognition
 
 Contributors will be:
-- Listed in the [Contributors](https://github.com/yourusername/geo2dcat/graphs/contributors) page
+- Listed in the [Contributors](https://github.com/hashemirafsan/geo2dcat/graphs/contributors) page
 - Mentioned in release notes
 - Added to CONTRIBUTORS.md (for significant contributions)
 

@@ -39,5 +39,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Input validation for all file operations
 - Sandboxed Docker environment
 
-[Unreleased]: https://github.com/yourusername/geo2dcat/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/yourusername/geo2dcat/releases/tag/v0.1.0
+[Unreleased]: https://github.com/hashemirafsan/geo2dcat/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/hashemirafsan/geo2dcat/releases/tag/v0.1.0

@@ -517,7 +517,8 @@ If you use geo2dcat in your research, please cite:
 @software{geo2dcat2024,
   title = {geo2dcat: Geospatial to DCAT Metadata Converter},
   year = {2024},
-  url = {https://github.com/yourusername/geo2dcat}
+  url = {https://github.com/hashemirafsan/geo2dcat},
+  author = {Hashemi, Rafsan}
 }
 ```
 
@@ -534,6 +535,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/yourusername/geo2dcat/issues)
-- Discussions: [GitHub Discussions](https://github.com/yourusername/geo2dcat/discussions)
-- Email: support@geo2dcat.org
+- Issues: [GitHub Issues](https://github.com/hashemirafsan/geo2dcat/issues)
+- Discussions: [GitHub Discussions](https://github.com/hashemirafsan/geo2dcat/discussions)
+- Documentation: [Wiki](https://github.com/hashemirafsan/geo2dcat/wiki)
