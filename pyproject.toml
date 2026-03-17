@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "geo2dcat"
+version = "0.1.0"
+description = "Convert geospatial and scientific file formats to DCAT 3 JSON-LD with CF ontology mappings"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["netcdf", "dcat", "cf-conventions", "climate", "geospatial", "rdf", "json-ld", "knowledge-graph"]
+dependencies = ["numpy>=1.24.0"]
+
+[project.optional-dependencies]
+netcdf = ["netCDF4>=1.6.0"]
+geotiff = ["rasterio>=1.3.0"]
+shapefile = ["geopandas>=0.13.0", "fiona>=1.9.0"]
+grib = ["cfgrib>=0.9.10", "xarray>=2023.1.0", "pandas>=2.0.0"]
+hdf5 = ["h5py>=3.8.0"]
+csv = ["pandas>=2.0.0"]
+synthetic = ["anthropic>=0.25.0"]
+rdf = ["rdflib>=6.3.0"]
+all = [
+    "netCDF4>=1.6.0",
+    "rasterio>=1.3.0",
+    "geopandas>=0.13.0",
+    "fiona>=1.9.0",
+    "cfgrib>=0.9.10",
+    "xarray>=2023.1.0",
+    "h5py>=3.8.0",
+    "pandas>=2.0.0",
+    "anthropic>=0.25.0",
+    "rdflib>=6.3.0",
+]
+dev = ["pytest>=7.0", "pytest-cov", "pytest-asyncio>=0.21.0", "ruff>=0.1.0", "mypy>=1.0.0"]
+
+[project.scripts]
+geo2dcat = "geo2dcat.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/geo2dcat"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
+warn_unused_ignores = true

@@ -1,0 +1,39 @@
+.DS_Store
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local datasets and generated outputs
+data/
+outputs/
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+.ansio

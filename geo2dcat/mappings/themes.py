@@ -1,0 +1,55 @@
+THEME_MAPPING = {
+    "sweet:AirTemperature": "theme:AtmosphericConditions",
+    "sweet:Precipitation": "theme:HydrologicalConditions",
+    "sweet:WindSpeed": "theme:AtmosphericConditions",
+    "sweet:WindVelocity": "theme:AtmosphericConditions",
+    "sweet:AtmosphericPressure": "theme:AtmosphericConditions",
+    "sweet:SolarRadiation": "theme:AtmosphericConditions",
+    "sweet:SeaSurfaceTemperature": "theme:OceanConditions",
+    "sweet:Salinity": "theme:OceanConditions",
+    "sweet:SeaSurfaceHeight": "theme:OceanConditions",
+    "sweet:SeaIce": "theme:CryosphericConditions",
+    "sweet:Runoff": "theme:HydrologicalConditions",
+    "sweet:SoilMoisture": "theme:LandSurfaceConditions",
+    "sweet:SnowDepth": "theme:CryosphericConditions",
+    "sweet:IceThickness": "theme:CryosphericConditions",
+    "sweet:Elevation": "theme:ElevationConditions",
+    "envo:NDVI": "theme:LandSurfaceConditions",
+    "envo:LeafAreaIndex": "theme:LandSurfaceConditions",
+    "envo:LandCover": "theme:LandSurfaceConditions",
+}
+
+
+THEME_KEYWORD_MAPPING = {
+    "heat wave": "theme:AtmosphericConditions",
+    "heat-wave": "theme:AtmosphericConditions",
+    "climate": "theme:AtmosphericConditions",
+    "temperature": "theme:AtmosphericConditions",
+    "humidity": "theme:AtmosphericConditions",
+    "wind": "theme:AtmosphericConditions",
+    "precipitation": "theme:HydrologicalConditions",
+    "rain": "theme:HydrologicalConditions",
+    "runoff": "theme:HydrologicalConditions",
+    "population": "theme:PopulationDistributionDemography",
+    "demograph": "theme:PopulationDistributionDemography",
+    "census": "theme:PopulationDistributionDemography",
+    "gadm": "theme:AdministrativeUnits",
+    "administrative": "theme:AdministrativeUnits",
+    "boundary": "theme:AdministrativeUnits",
+    "elevation": "theme:ElevationConditions",
+    "land cover": "theme:LandSurfaceConditions",
+}
+
+
+ONTOLOGY_KEYWORD_MAPPING = {
+    "heat wave": "sweet:AirTemperature",
+    "heat-wave": "sweet:AirTemperature",
+    "temperature": "sweet:AirTemperature",
+    "humidity": "sweet:RelativeHumidity",
+    "wind": "sweet:WindSpeed",
+    "precipitation": "sweet:Precipitation",
+    "rain": "sweet:Precipitation",
+    "runoff": "sweet:Runoff",
+    "elevation": "sweet:Elevation",
+    "land cover": "envo:LandCover",
+}

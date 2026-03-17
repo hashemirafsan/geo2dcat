@@ -1,0 +1,38 @@
+services:
+  geo2dcat:
+    build:
+      context: .
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - ./data:/data
+      - ./outputs:/outputs
+    working_dir: /app
+
+  test:
+    build:
+      context: .
+    profiles: ["test"]
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - ./data:/data
+      - ./outputs:/outputs
+    working_dir: /app
+    command: pytest --cov=geo2dcat --cov-report=term-missing tests
+
+  fuseki:
+    image: stain/jena-fuseki:latest
+    profiles: ["sparql"]
+    ports:
+      - "3030:3030"
+    environment:
+      - ADMIN_PASSWORD=admin123
+    volumes:
+      - fuseki-data:/fuseki
+    command: ["/jena-fuseki/fuseki-server", "--mem", "/climate-kg"]
+
+volumes:
+  fuseki-data:
