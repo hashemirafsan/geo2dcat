@@ -518,7 +518,7 @@ If you use geo2dcat in your research, please cite:
   title = {geo2dcat: Geospatial to DCAT Metadata Converter},
   year = {2026},
   url = {https://github.com/hashemirafsan/geo2dcat},
-  author = {Hashemi, Rafsan}
+  author = {Rafsan Hashemi}
 }
 ```
 
