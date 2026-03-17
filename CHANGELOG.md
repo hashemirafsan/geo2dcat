@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - STAC output format (planned)
 - Web service API (planned)
 
-## [0.1.0] - 2024-03-18
+## [0.1.0] - 2026-03-18
 
 ### Added
 - Initial release of geo2dcat

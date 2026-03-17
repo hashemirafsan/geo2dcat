@@ -514,9 +514,9 @@ Benchmarks on typical datasets:
 If you use geo2dcat in your research, please cite:
 
 ```bibtex
-@software{geo2dcat2024,
+@software{geo2dcat2026,
   title = {geo2dcat: Geospatial to DCAT Metadata Converter},
-  year = {2024},
+  year = {2026},
   url = {https://github.com/hashemirafsan/geo2dcat},
   author = {Hashemi, Rafsan}
 }
