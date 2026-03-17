@@ -4,13 +4,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/docker-ready-green)](docker-compose.yml)
 
-A Python library and CLI tool for converting geospatial and scientific datasets into **DCAT 3 JSON-LD** with automatic CF Convention ontology mappings. Transform NetCDF, GeoTIFF, Shapefile, GRIB, HDF5, and CSV files into standardized metadata for EU Dataspace, INSPIRE, and EOSC publishing.
+A Python library and CLI tool for converting geospatial and scientific datasets into **DCAT 3 JSON-LD** with automatic CF Convention ontology mappings. Transform NetCDF, GeoTIFF, Shapefile, GRIB, HDF5, and CSV files into standardized metadata for open data catalogues and research publishing pipelines.
 
 ## Features
 
 - **Multi-format support**: NetCDF, GeoTIFF/Raster, Shapefile/Vector, GRIB, HDF5, CSV
 - **Automatic metadata extraction**: CF conventions, spatial/temporal bounds, variables
-- **Ontology mapping**: SWEET, ENVO, and INSPIRE theme mappings for 100+ CF standard names
+- **Ontology mapping**: SWEET and ENVO ontology mappings for 100+ CF standard names
 - **Batch processing**: Convert entire directories with pattern matching
 - **SHACL generation**: Auto-generate validation shapes from dataset collections
 - **Docker-ready**: GDAL/PROJ/GEOS pre-configured environment
@@ -347,7 +347,7 @@ geo2dcat/
 ├── mappings/           # Ontology and theme mappings
 │   ├── cf_standard_names.py  # CF → SWEET/ENVO URIs
 │   ├── cf_short_aliases.py   # Common variable aliases
-│   └── themes.py             # INSPIRE theme mappings
+│   └── themes.py             # Geospatial theme mappings
 ├── dcat_builder.py     # DCAT 3 JSON-LD construction
 ├── shacl_generator.py  # SHACL shape generation
 ├── synthetic/          # Training data generation
@@ -530,7 +530,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - CF Conventions community for standard name tables
 - SWEET ontology for scientific concept URIs
-- INSPIRE directive for spatial data themes
+- Open geospatial community for spatial data theme conventions
 - OSGeo for GDAL/OGR geospatial libraries
 
 ## Support
